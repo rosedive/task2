@@ -1,0 +1,123 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  text-align: center;
+    background-color: #E8E8E8;
+    width: 1000px;
+    margin: 10px auto;
+}
+
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+}
+
+/* From here */
+#container{
+    width: 1000px;
+    height:auto;
+    margin: 10px auto;
+}
+header {
+    height: 50px;
+    background-color: #4d4d4d;
+    color: white;
+}
+#upper{
+    background-color: white;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+#down{
+    margin-top: 20px;
+    background-color: #d9e6f2;
+}
+#head1{
+    width: 150px;
+    height: 50px;
+    float: left;
+}
+#head2{
+    width: 150px;
+    height: 50px;
+    float: right;
+}
+
+header ul {
+    height: 50px;
+    padding: 10px;
+}
+
+header ul a {
+    text-decoration: none;
+    color: white;
+    height: 50px;
+    text-align: center;
+    margin: 5px;
+}
+
+header li {
+    display: inline;
+    text-align: center;
+    
+    height: 50px;
+}
+
+header ul:after {
+}
+/* This is the implementation of the header part */
+
+.main-header img {
+    width: 200px;
+    margin-top: 100px;
+}
+
+.about {
+/* Implementation of the About Achieve part*/
+}
+
+/* from here */
+#parag{
+    background-color: white;
+    padding: 10px;
+}
+.function{
+    width: 100%;
+    height: 400px;
+    background-color: #d9e6f2;
+    align-content: center;
+}
+
+.function-images {
+    
+    align-content: center;
+    width: 800px;
+    margin:70 auto;
+}
+
+.function-image {
+    width: 200px;
+align-self: center;
+    height: auto;
+    display: inline;
+    float: left;
+    
+}
+
+
+
+/* Here is the implementation of the function part */
+
+footer {
+/* Implementation of footer part */
+    background-color: #2b3f49;
+    padding: 10px;
+    color: white;
+    position: relative;
+}
